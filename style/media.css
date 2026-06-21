@@ -109,7 +109,7 @@
     top: auto;
     left: auto;
     box-shadow: none;
-    max-height: 40vh;
+    max-height: 60vh;
     padding: calc(var(--spacing) * 4);
     overflow-x: hidden;
   }
@@ -133,7 +133,7 @@
   .modern-apartment {
     background-color: var(--color-white);
     border-radius: var(--radius-lg);
-    padding: calc(var(--spacing) * 3) calc(var(--spacing) * 1);
+    padding: calc(var(--spacing) * 2);
     margin-bottom: 0;
   }
 
@@ -149,7 +149,7 @@
   }
 
   .property-type-item i {
-    font-size: var(--text-lg);
+    font-size: var(--text-sm);
     margin-right: 0;
   }
 
@@ -185,6 +185,10 @@
   .locations {
     flex-direction: row !important;
     gap: calc(var(--spacing) * 3) !important;
+  }
+
+  .location-item {
+    padding: calc(var(--spacing) * 3);
   }
 
   .location-item h4 {
