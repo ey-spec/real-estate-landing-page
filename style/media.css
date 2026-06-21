@@ -1,0 +1,218 @@
+@media (max-width: 991.98px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container-fluid {
+    padding-left: var(--nav-gutter) !important;
+    padding-right: var(--nav-gutter) !important;
+  }
+
+  .navbar-brand {
+    margin-left: 3rem !important;
+  }
+
+  .navbar-toggler {
+    margin-right: 3rem !important;
+  }
+
+  #navbarNavDropdown .navbar-nav {
+    margin-top: calc(var(--spacing) * 4);
+  }
+
+  #navbarNavDropdown .nav-item {
+    margin-inline: calc(var(--nav-gutter) * -1);
+    width: calc(100% + (var(--nav-gutter) * 2));
+  }
+
+  .dropdown-toggle[aria-expanded="true"] .dropdown-arrow {
+    transform: rotate(180deg);
+  }
+
+  #navbarNavDropdown .nav-item:first-child {
+    border-top: 1px solid var(--color-slate-200);
+  }
+
+  .navbar .nav-link:hover::before,
+  .navbar .nav-link.active::before {
+    display: none;
+  }
+
+  #navbarNavDropdown .nav-item:first-child .nav-link {
+    margin-top: calc(var(--spacing) * 3);
+  }
+
+  #navbarNavDropdown .nav-link {
+    transition: background-color 0.2s ease;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+    margin-block: 2px;
+    width: 100%;
+    border-radius: 0.625rem;
+  }
+
+  .square {
+    display: none;
+  }
+
+  #navbarNavDropdown .nav-link:hover {
+    background-color: var(--color-violet-50) !important;
+  }
+
+  .navbar-nav .nav-link.active {
+    background-color: transparent !important;
+    color: var(--color-slate-700) !important;
+    font-weight: var(--font-weight-medium) !important;
+  }
+
+  .navbar-nav .nav-link.active:hover {
+    color: var(--color-violet-600) !important;
+    background-color: var(--color-violet-50) !important;
+  }
+
+  .hero-section h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+
+  .hero-cards {
+    margin-bottom: 2rem;
+  }
+
+  header h3,
+  .testimonals header h4,
+  .faq header h3 {
+    font-size: 2rem;
+  }
+
+  .properties-items {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .mega-menu {
+    width: 100%;
+    max-width: 100%;
+    position: static;
+    transform: none;
+    top: auto;
+    left: auto;
+    box-shadow: none;
+    padding: calc(var(--spacing) * 4);
+  }
+
+  .featured-properties,
+  .property-types,
+  .popular-location,
+  .resources {
+    background-color: var(--color-gray-50);
+    border-radius: var(--radius-lg);
+    padding: calc(var(--spacing) * 5);
+    margin-bottom: calc(var(--spacing) * 4);
+  }
+
+  .col h3 {
+    font-size: var(--text-xl);
+    margin-bottom: calc(var(--spacing) * 5);
+  }
+
+  .luxury-villa,
+  .modern-apartment {
+    background-color: var(--color-white);
+    border-radius: var(--radius-lg);
+    padding: calc(var(--spacing) * 3);
+    margin-bottom: 0;
+  }
+
+  .luxury-villa img,
+  .modern-apartment img {
+    width: calc(var(--spacing) * 12);
+  }
+
+  .featured-properties-text h4,
+  .featured-properties-text span {
+    font-size: 0.75rem;
+  }
+
+  .property-type-item {
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing) * 2);
+  }
+
+  .property-type-item i {
+    font-size: var(--text-lg);
+  }
+
+  .property-type-item span {
+    font-size: var(--text-sm);
+  }
+
+  .resource-item {
+    background-color: var(--color-white);
+    padding: calc(var(--spacing) * 4);
+  }
+
+  .resource-item-bottom {
+    display: none;
+  }
+
+  .resource-item-top i {
+    width: calc(var(--spacing) * 9);
+    height: calc(var(--spacing) * 9);
+    font-size: var(--text-base, 1rem);
+  }
+
+  .resource-item-top h4 {
+    font-size: 1rem;
+    margin-left: calc(var(--spacing) * 2);
+  }
+
+  .resource-item p {
+    font-size: var(--text-sm);
+    margin-bottom: 0;
+  }
+
+  .locations {
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    gap: calc(var(--spacing) * 3) !important;
+  }
+
+  .location-item h4 {
+    font-size: 0.75rem;
+  }
+  .location-item span {
+    font-size: 0.75rem;
+  }
+
+  .navbar-collapse {
+    max-height: 100vh !important;
+    overflow-y: auto;
+    background-color: var(--color-white);
+  }
+
+  .testimonial-card,
+  .tab-content,
+  .hero-search-card,
+  .contact-cards,
+  .infos {
+    width: 90%;
+    margin: auto;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .accordion {
+    width: 80%;
+  }
+
+  .top-circle,
+  .bottom-circle,
+  .top-square,
+  .bottom-square {
+    display: none;
+  }
+}
