@@ -1000,6 +1000,12 @@ header p {
 }
 
 /*------------------------testimonals---------------------------*/
+.carousel-inner{
+  width: 75%;
+  overflow: hidden;
+  margin-inline: auto;
+}
+
 .testimonals {
   padding-block: calc(var(--spacing) * 20);
   background: linear-gradient(

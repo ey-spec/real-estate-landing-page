@@ -223,4 +223,10 @@
   .bottom-square {
     display: none;
   }
+
+  .carousel-inner {
+    width: 100%;
+    overflow: hidden;
+    margin-inline: auto;
+  }
 }
