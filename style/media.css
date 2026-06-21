@@ -192,11 +192,11 @@
   }
 
   .location-item h4 {
-    font-size: 0.75rem;
+    font-size: var(--text-sm);
     white-space: nowrap;
   }
   .location-item span {
-    font-size: 0.75rem;
+    font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
 
