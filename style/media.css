@@ -133,7 +133,7 @@
   .modern-apartment {
     background-color: var(--color-white);
     border-radius: var(--radius-lg);
-    padding: calc(var(--spacing) * 3);
+    padding: calc(var(--spacing) * 3) calc(var(--spacing) * 1);
     margin-bottom: 0;
   }
 
