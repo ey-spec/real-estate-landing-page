@@ -70,7 +70,7 @@
   }
 
   .hero-section h2 {
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-size: 3rem;
   }
 
@@ -196,9 +196,13 @@
   .tab-content,
   .hero-search-card,
   .contact-cards,
-  .infos {
+  .infos,
+  header,
+  .hero-section h2,
+  .hero-section p,
+  .hero-cards {
     width: 90%;
-    margin: auto;
+    margin-inline: auto;
   }
   .carousel-control-prev,
   .carousel-control-next {
