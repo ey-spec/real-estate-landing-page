@@ -1,6 +1,6 @@
 @media (max-width: 991.98px) {
-  html,
-  body {
+  body,
+  html {
     overflow-x: hidden;
   }
   .container-fluid {
@@ -91,15 +91,27 @@
     margin-bottom: 2rem;
   }
 
+  .navbar-collapse {
+    background-color: var(--color-white);
+    box-shadow:
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+  }
+
   .mega-menu {
     width: 100%;
-    max-width: 100%;
     position: static;
     transform: none;
     top: auto;
     left: auto;
     box-shadow: none;
+    max-height: 40vh;
     padding: calc(var(--spacing) * 4);
+    overflow-x: hidden;
   }
 
   .featured-properties,
@@ -178,12 +190,6 @@
   }
   .location-item span {
     font-size: 0.75rem;
-  }
-
-  .navbar-collapse {
-    max-height: 100vh !important;
-    overflow-y: auto;
-    background-color: var(--color-white);
   }
 
   .testimonial-card,
