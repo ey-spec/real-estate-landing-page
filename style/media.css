@@ -188,6 +188,7 @@
 
   .location-item h4 {
     font-size: 0.75rem;
+    white-space: nowrap;
   }
   .location-item span {
     font-size: 0.75rem;
