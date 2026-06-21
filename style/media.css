@@ -135,7 +135,6 @@
     border-radius: var(--radius-lg);
     padding: calc(var(--spacing) * 3) calc(var(--spacing) * 1);
     margin-bottom: 0;
-    height: 100%;
   }
 
   .luxury-villa img,
