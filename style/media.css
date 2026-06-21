@@ -212,10 +212,6 @@
     width: 90%;
     margin-inline: auto;
   }
-  .carousel-control-prev,
-  .carousel-control-next {
-    display: none;
-  }
 
   .accordion {
     width: 80%;
