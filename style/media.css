@@ -9,11 +9,11 @@
   }
 
   .navbar-brand {
-    margin-left: 3rem !important;
+    margin-left: 2rem !important;
   }
 
   .navbar-toggler {
-    margin-right: 3rem !important;
+    margin-right: 1rem !important;
   }
 
   #navbarNavDropdown .navbar-nav {
@@ -149,6 +149,7 @@
 
   .property-type-item i {
     font-size: var(--text-lg);
+    margin-right: 0;
   }
 
   .property-type-item span {

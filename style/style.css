@@ -287,19 +287,19 @@ body {
 
 .new-york {
   background-image:
-    linear-gradient(135deg, rgba(91, 33, 182, 0.55), rgba(192, 38, 211, 0.55)),
+    linear-gradient(to right, #4c1d9599, #581c8799),
     url("../assests/images/new-york.jpeg");
 }
 
 .los-angeles {
   background-image:
-    linear-gradient(135deg, rgba(91, 33, 182, 0.55), rgba(192, 38, 211, 0.55)),
+    linear-gradient(to right, #4c1d9599, #581c8799),
     url("../assests/images/los-angeles.jpeg");
 }
 
 .miami {
   background-image:
-    linear-gradient(135deg, rgba(91, 33, 182, 0.55), rgba(192, 38, 211, 0.55)),
+    linear-gradient(to right, #4c1d9599, #581c8799),
     url("../assests/images/miami.jpeg");
 }
 
