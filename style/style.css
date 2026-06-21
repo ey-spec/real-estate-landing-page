@@ -113,6 +113,7 @@ body {
 
 ::selection {
   background-color: var(--color-violet-400);
+  color: var(--color-white);
 }
 
 .border-violet-100 {
