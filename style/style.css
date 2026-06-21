@@ -1,11 +1,6 @@
 /* Utilities */
-@font-face {
-  font-family: EXO;
-  src: url(../assests/fonts/Exo/Exo-VariableFont_wght.ttf);
-}
-
 body {
-  font-family: sans-serif;
+  font-family:'EXO', sans-serif;
 }
 
 :root {
@@ -289,19 +284,19 @@ body {
 .new-york {
   background-image:
     linear-gradient(to right, #4c1d9599, #581c8799),
-    url("../assests/images/new-york.jpeg");
+    url("../assets/images/new-york.jpeg");
 }
 
 .los-angeles {
   background-image:
     linear-gradient(to right, #4c1d9599, #581c8799),
-    url("../assests/images/los-angeles.jpeg");
+    url("../assets/images/los-angeles.jpeg");
 }
 
 .miami {
   background-image:
     linear-gradient(to right, #4c1d9599, #581c8799),
-    url("../assests/images/miami.jpeg");
+    url("../assets/images/miami.jpeg");
 }
 
 .new-york:hover,
@@ -449,7 +444,7 @@ body {
 .hero-section {
   background-image:
     linear-gradient(to right, #4d179acc, #59168bcc),
-    url("../assests/images/hero-bg-img.png");
+    url("../assets/images/hero-bg-img.png");
   background-size: cover;
   padding-top: calc(var(--spacing) * 20);
   background-position: 50%;
