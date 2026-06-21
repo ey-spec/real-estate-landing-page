@@ -135,12 +135,6 @@
     font-size: 0.75rem;
   }
 
-  .property-type-item {
-    display: flex;
-    align-items: center;
-    gap: calc(var(--spacing) * 2);
-  }
-
   .property-type-item i {
     font-size: var(--text-lg);
   }
@@ -170,13 +164,12 @@
   }
 
   .resource-item p {
-    font-size: var(--text-sm);
+    font-size: 0.75rem;
     margin-bottom: 0;
   }
 
   .locations {
     flex-direction: row !important;
-    flex-wrap: nowrap;
     gap: calc(var(--spacing) * 3) !important;
   }
 
