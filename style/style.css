@@ -806,6 +806,7 @@ header p {
   border-radius: 0;
   border-bottom: 2px solid transparent;
   transition: all 0.2s ease;
+  margin-right: 0;
 }
 
 #myTab .nav-link:hover {
